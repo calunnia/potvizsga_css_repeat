@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #492004;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 95vh;
+  width: 95vw;
+  margin-top: 30px;
+  border-radius: 0 0 5px 5px;
+  margin: auto;
+}
+
+h3 {
+  color: beige;
+  padding: 10px;
+}
+
+.left {
+  text-align: left;
+  letter-spacing: 0.2em;
+}
+
+.right {
+  text-align: right;
+}
+
+.btn_div {
+  border: 1px solid green;
+}
+
+.btn {
+  position: relative;
+  bottom: 0;
+  overflow: hidden;
+  background-color: white;
+  color: #492004;
+  padding: 20px 0;
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+  letter-spacing: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */

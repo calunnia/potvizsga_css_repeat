@@ -11,6 +11,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.menu {
+  position: fixed;
+  right: 0;
+  border-radius: 50%;
+  background-color: beige;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,7 +32,7 @@ body {
   height: 95vh;
   width: 95vw;
   margin-top: 30px;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 10px 10px;
   margin: auto;
 }
 
@@ -48,7 +55,7 @@ h3 {
 }
 
 .btn {
-  position: relative;
+  position: absolute;
   bottom: 0;
   overflow: hidden;
   background-color: white;

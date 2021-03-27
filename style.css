@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  background-color: #492004;
+  background-color: #e47e3a;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -59,7 +59,7 @@ h3 {
   bottom: 0;
   overflow: hidden;
   background-color: white;
-  color: #492004;
+  color: #e47e3a;
   padding: 20px 0;
   border-radius: 0 0 5px 5px;
   width: 100%;
